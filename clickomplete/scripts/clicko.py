@@ -19,8 +19,7 @@ Author:     Gabriele Girelli
 Docs:       http://github.com/python-click-autocomplete-example
 Code:       http://github.com/ggirelli/python-click-autocomplete-example
 
-Radial Image Analisys Toolkit (RadIAnTkit) is a Python3.6+ package containing
-tools for radial analysis of microscopy image.""",
+Click autocomplete set up example.""",
 )
 @click.version_option(__version__)
 def main() -> None:
