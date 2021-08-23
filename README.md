@@ -1,6 +1,6 @@
 # python-click-autocomplete-example
 
-This is an example on how to setup shell autocompletion in your python scripts reading input via [click](https://github.com/pallets/click/), especially when working on a Python package using [Poetry](https://github.com/python-poetry/poetry).
+This is an example on how to set up shell autocompletion for your Python scripts reading input via [click](https://github.com/pallets/click/), especially when working on a Python package using [Poetry](https://github.com/python-poetry/poetry).
 
 ## Requirements
 
