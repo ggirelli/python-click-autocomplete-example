@@ -11,7 +11,7 @@ To test this example you will need:
 
 ## Usage
 
-Set up the environment with:
+Set up the example's environment and enter it with:
 
 ```bash
 git clone https://github.com/ggirelli/python-click-autocomplete-example.git
@@ -38,5 +38,7 @@ Now, you should be able to test autocompletion by typing `clicko <TAB> <TAB>`.
 ## How does it work
 
 The `clicko-autocomplete` script is able to generate and install shell autocompletion configuration files, stored by default in the `autocomplete` subfolder of this package. This is done by exploiting the in-built autocompletion tools served by `click`.
+
+When installing the autocompletion configuration files for `bash` or `zsh`, the `clicko-autocomplete` script is able to check if the config files were already installed, and avoid re-installation.
 
 To read more on autocompletion with `click`, check out [their documentation](https://click.palletsprojects.com/en/8.0.x/shell-completion/).
